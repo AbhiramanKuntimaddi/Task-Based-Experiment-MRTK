@@ -1,0 +1,183 @@
+\documentclass{article}
+
+% Language setting
+% Replace `english' with e.g. `spanish' to change the document language
+\usepackage[english]{babel}
+
+% Set page size and margins
+% Replace `letterpaper' with `a4paper' for UK/EU standard size
+\usepackage[a4paper,top=2cm,bottom=2cm,left=3cm,right=3cm,marginparwidth=1.75cm]{geometry}
+
+% Useful packages
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage[colorlinks=true, allcolors=blue]{hyperref}
+
+\usepackage[T1]{fontenc}
+\usepackage{tgbonum}
+
+\usepackage{enumitem}
+
+\usepackage{geometry}
+\usepackage{array}
+
+\renewcommand{\thesection}{\Roman{section}}
+\renewcommand{\thesubsection}{\thesection.\Roman{subsection}}
+\renewcommand{\thesubsubsection}{\thesection.\alph{subsubsection}}
+
+\newenvironment{subs}
+  {\adjustwidth{3em}{0pt}}
+  {\endadjustwidth}
+
+\title{\textbf{Evaluation Protocol}}
+\author{Abhiraman Kuntimaddi}
+\date{February 25, 2022}
+
+\begin{document}
+\maketitle
+
+\section{General Outline}
+
+\subsection{Evaluation Goals}
+
+Analyze an XR(Extended Reality) application in Cross Platform Framework Development (CPFD)
+like OpenXR using Mixed Reality Feature Tool and Native implementation like Mixed Reality ToolKit(MRTK)
+on Unity Game Engine for the purpose of comparison with respect to Effectiveness, Effiency and Satisfaction.
+
+\subsection{Tools to Compare}
+
+\begin{enumerate}[label=\textbf{\alph*}]
+	\item MRTK(Mixed Reality ToolKit) Native implementation in Unity
+	\item MRTK OpenXR(Cross Platform Framework Development) implementation in Unity
+\end{enumerate}
+
+\subsection{Scenarios}
+
+Described in further details in the Evaluation Task sheet.
+
+\subsection{Variables}
+
+\begin{enumerate}[label=\textbf{\alph*}]
+	\item Dependent Variables : Effectiveness and Accuracy
+	\item Effectiveness is to be measured in terms of the accuracy (closeness of measurements of a quantity to that quantity’s actual/true value) with which certain tasks are performed.
+	\item Efficiency is to be measured in terms of required time to accomplish the tasks chosen from the task sheet.
+	\item Performance Expectancy and Effort Expectancy are to be used for rating Acceptability.
+	\item Utility, Intuitiveness, Learnability, and Personal Effect are to be used for rating Usability.
+	\item Usability (Questionnaire closed-ended)
+	\item Acceptance to be measured using TAM (Technology Acceptance Model; validated and standardized test instrument).
+	\item Independent variable: XR Devices and Tools
+\end{enumerate}
+
+\subsection{Target sample}
+\begin{enumerate}[label=\textbf{\alph*}]
+	\item Knowledgeable with respect to Virtual Environments (XR/MR/AR/VR) and Unity Game Engine.
+	\item Convenient Sample : Researchers and Students of Apl. Prof. Dr. Achim Ebert and Dr.-ing. Taimur Kausar Khan.
+\end{enumerate}
+
+\subsection{Experimental Setup}
+\begin{enumerate}[label=\textbf{\alph*}]
+	\item General Design : Quasi-experiment.
+	\item Assignment of participants to group : Both Native and OpenXR(CPFD) implementations are very similar, Both groups will solve similar but on different days for avoiding bias.
+\end{enumerate}
+
+\section{Hypothesis}
+Careful consideration of the visualization and appropriate interactions in the virtaul world with XR Devices and OpenXR seem to be important for understanding the difference between Native and CPFD
+The comparisons are captured in the following Hypothesis :
+
+\begin{itemize}
+	\item \textbf{Research Hypothesis H1} \hfill \break
+	      \textit{The use of Cross Platform Framework Development APIs such as OpenXR in game engines like Unity has an impact on Effectiveness, Efficiency and Satisfaction when compared to that of Native API implementations like MRTK.}
+	\item \textbf{Research Hypothesis H2} \hfill \break
+	      \textit{Deciding over which Cross Platform Framework Development ToolKit turns out to be the best choice in the concrete application.}
+\end{itemize}
+
+\section{Operationalization}
+
+\begin{itemize}
+	\item Effectiveness is to be measured in terms of the accuracy with which the following tasks are performed. Two difference Scenarios i.e, An XR Playground and A simple Game like whack-a-mole are used in-order to understand the accuracy:
+
+	      \textit{\textbf{Scenario 1}(XR Playground)}
+	      \begin{enumerate}[label=\textbf{\alph*}]
+		      \item Time taken to move 3D Objects in the scenes from the ground to the defined place in the Virtual Space.
+		      \item Time taken to scale 3D Objects in the scene and then place them in the scene.
+		      \item Time taken to Delete the Objects in the Scene and replace them with new objects in the scene.
+	      \end{enumerate}
+
+	      \textit{\textbf{Scenario 2}(Whack-a-mole Game)}
+	      \begin{enumerate}[label=\textbf{\alph*}]
+		      \item Time taken to teleport to the game space and start the game.
+		      \item Total Number of moles hit with the hammer in the game within 120 seconds.
+	      \end{enumerate}
+
+	\item Efficiency is to be measured in terms of required time to accomplish the above mentioned tasks.
+	\item The following dimensions of the TAM model are to be used for rating Acceptability: Performance Expectancy and Effort Expectancy.
+	      \begin{table}[htb]
+		      \centering
+		      \setlength{\leftmargini}{0.5cm}
+		      \begin{tabular}{| m{2.5cm} | m{10.5cm}  |}
+			      \hline
+			      \textbf{Dimensions}                    & \textbf{Parameters}                                   \\
+			      \hline \hfill \break
+			      \textbf{Performance \break Expectancy} &
+			      \begin{enumerate}
+				      \item I would use XR Devices in my job.
+				      \item Using XR Devices enables me to accomplish tasks more quickly and effictively.
+				      \item Using XR Devices would increase my productivity.
+			      \end{enumerate}             \\
+			      \hline \hfill \break
+			      \textbf{Effort \break Expectancy}      &
+			      \begin{enumerate}
+				      \item My interaction with XR Devices and objects in virtual space are clear and understandable.
+				      \item I find the XR Devices easy to use.
+			      \end{enumerate} \\
+			      \hline
+		      \end{tabular}
+	      \end{table}
+
+	      \newpage
+
+	\item The following dimensions of the work of Nestler et al. are to be used for rating Usability: Utility, Intuitiveness, Learnability, and Personal Effect.
+	      \begin{table}[htb]
+		      \centering
+		      \setlength{\leftmargini}{0.4cm}
+		      \begin{tabular}{| m{3cm} | m{3cm} | m{8cm} |}
+			      \hline
+			      \textbf{Dimensions}      & \textbf{Sub-Dimensions}                             & \textbf{Parameters} \\
+			      \hline
+			      \textbf{Utility}         & productivity                                        &
+			      \begin{enumerate}
+				      \item The XR Device and the Game Engine supported the handling of all the tasks I needed to perform.
+				      \item I was highly successfully in accomplishing the given tasks using the XR Device.
+			      \end{enumerate}                                                                               \\
+			      \hline
+			      \textbf{Intuitiveness}   & Affordance, Transparency, Memorability, Perspicuity &
+			      \begin{enumerate}
+				      \item The application clearly indicated all the possible inputs to me.
+				      \item I find the terms, symbols and instructions in the application easy to understand.
+				      \item I find the XR Device to be highly understandable.
+				      \item I find the effects of actions to be highly Transparent.
+				      \item It was easy for me to find the important elements and actions in the application.
+			      \end{enumerate}                                                                               \\
+			      \hline
+			      \textbf{Learnability}    & Feedback                                            &
+			      \begin{enumerate}
+				      \item The XR Headset provided appropriate Feedbacks to me when interacted with it.
+				      \item The Motion Controllers used provided appropriate haptic Feedbacks when interacted with objects in the application.
+				      \item The audio cues provided were appropriate when interacting with the objects in the application.
+			      \end{enumerate}                                                                               \\
+			      \hline
+			      \textbf{Personal Effect} & Novelty, Satisfaction, Stress                       &
+			      \begin{enumerate}
+				      \item I was totally comfortable when using the XR Headsets and Motion Controllers.
+				      \item I find the interaction with the XR Headsets and Motion Controllers to be pleasant.
+				      \item I enjoyed the experience with the used XR Device.
+				      \item I am satisfied with the used XR Devices in the experiment.
+				      \item I felt insecure, discouraged, irritated, or stressed while using the XR Device.
+			      \end{enumerate}                                                                               \\
+			      \hline
+		      \end{tabular}
+	      \end{table}
+
+\end{itemize}
+
+\end{document}
