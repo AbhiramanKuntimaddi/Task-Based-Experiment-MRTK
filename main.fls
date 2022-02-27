@@ -1,6 +1,6 @@
-PWD c:\Users\abhir\Desktop\Project-HCI\Evaluation Protocol
+PWD c:\Users\abhir\Desktop\Project-HCI\Task-Based-Experiment-MRTK
 INPUT C:\Users\abhir\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
-INPUT c:\Users\abhir\Desktop\Project-HCI\Evaluation Protocol\main.tex
+INPUT c:\Users\abhir\Desktop\Project-HCI\Task-Based-Experiment-MRTK\main.tex
 OUTPUT main.log
 INPUT C:\Users\abhir\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
 INPUT C:\Users\abhir\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
@@ -598,10 +598,10 @@ INPUT .\main.out
 INPUT main.out
 INPUT .\main.out
 INPUT main.out
-OUTPUT main.pdf
 INPUT .\main.out
 INPUT .\main.out
 OUTPUT main.out
+OUTPUT main.pdf
 INPUT C:\Users\abhir\AppData\Local\Programs\MiKTeX\fonts\tfm\public\tex-gyre\ec-qbkr.tfm
 INPUT C:\Users\abhir\AppData\Local\Programs\MiKTeX\fonts\tfm\public\tex-gyre\ec-qbkb.tfm
 INPUT C:\Users\abhir\AppData\Local\Programs\MiKTeX\fonts\tfm\public\tex-gyre\ec-qbkr.tfm
@@ -620,26 +620,16 @@ INPUT C:\Users\abhir\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cme
 INPUT C:\Users\abhir\AppData\Local\Programs\MiKTeX\fonts\tfm\public\tex-gyre\ec-qbkr.tfm
 INPUT C:\Users\abhir\AppData\Local\Programs\MiKTeX\fonts\tfm\public\tex-gyre\ec-qbkb.tfm
 INPUT C:\Users\abhir\AppData\Local\Programs\MiKTeX\fonts\tfm\public\tex-gyre\ec-qbkb.tfm
-INPUT C:\Users\abhir\AppData\Local\Programs\MiKTeX\fonts\tfm\public\tex-gyre\ec-qbkb.tfm
-INPUT C:\Users\abhir\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
-INPUT C:\Users\abhir\AppData\Local\Programs\MiKTeX\tex\latex\tex-gyre\ts1qbk.fd
-INPUT C:\Users\abhir\AppData\Local\Programs\MiKTeX\tex\latex\tex-gyre\ts1qbk.fd
-INPUT C:\Users\abhir\AppData\Local\Programs\MiKTeX\tex\latex\tex-gyre\ts1qbk.fd
-INPUT C:\Users\abhir\AppData\Local\Programs\MiKTeX\tex\latex\tex-gyre\ts1qbk.fd
-INPUT C:\Users\abhir\AppData\Local\Programs\MiKTeX\fonts\tfm\public\tex-gyre\ts1-qbkr.tfm
+INPUT C:\Users\abhir\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
+INPUT C:\Users\abhir\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
 INPUT C:\Users\abhir\AppData\Local\Programs\MiKTeX\fonts\tfm\public\tex-gyre\ec-qbkri.tfm
-INPUT C:\Users\abhir\AppData\Local\Programs\MiKTeX\fonts\tfm\public\tex-gyre\ec-qbkbi.tfm
-INPUT C:\Users\abhir\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
-INPUT C:\Users\abhir\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
+INPUT C:\Users\abhir\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
 INPUT main.aux
 INPUT .\main.out
 INPUT .\main.out
 INPUT C:\Users\abhir\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\tex-gyre\q-ec.enc
-INPUT C:\Users\abhir\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\tex-gyre\q-ts1.enc
 INPUT C:\Users\abhir\AppData\Local\Programs\MiKTeX\fonts\type1\public\tex-gyre\qbkb.pfb
 INPUT C:\Users\abhir\AppData\Local\Programs\MiKTeX\fonts\type1\public\tex-gyre\qbkb.pfb
-INPUT C:\Users\abhir\AppData\Local\Programs\MiKTeX\fonts\type1\public\tex-gyre\qbkbi.pfb
-INPUT C:\Users\abhir\AppData\Local\Programs\MiKTeX\fonts\type1\public\tex-gyre\qbkbi.pfb
 INPUT C:\Users\abhir\AppData\Local\Programs\MiKTeX\fonts\type1\public\tex-gyre\qbkr.pfb
 INPUT C:\Users\abhir\AppData\Local\Programs\MiKTeX\fonts\type1\public\tex-gyre\qbkr.pfb
 INPUT C:\Users\abhir\AppData\Local\Programs\MiKTeX\fonts\type1\public\tex-gyre\qbkri.pfb
